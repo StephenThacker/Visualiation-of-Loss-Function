@@ -11,8 +11,8 @@ But to reiterate from the paper, the idea is to train your model to a minimum an
 
 
 Dependencies:
-Tensorflow 2.4
-numpy 1.19.5
-matplotlib 3.3.4
+Tensorflow 2.4 ,
+numpy 1.19.5 ,
+matplotlib 3.3.4 ,
 
 A few examples of the output can be seen below.
