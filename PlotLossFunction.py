@@ -1,8 +1,7 @@
 import numpy as np
 import tensorflow as tf
 import matplotlib.pyplot as plt
-from unet import custom_objects
-from circles import readimagesintonumpyArray,maketrainingdata,makegroundtruth2, takecenter
+from circles import readimagesintonumpyArray,maketrainingdata,makegroundtruth2, takecenter, custom_objects
 Model1 = tf.keras.models.load_model('/home/stephen/Downloads/TF2UNET/unet/scripts/circles/2021-05-31T15-37_08/',custom_objects=custom_objects)
 Model1.compile(loss='binary_crossentropy',run_eagerly=True)
 Model2 = tf.keras.models.load_model('/home/stephen/Downloads/TF2UNET/unet/scripts/circles/2021-05-31T15-37_08/',custom_objects=custom_objects)
