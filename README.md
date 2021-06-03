@@ -6,3 +6,9 @@ dimensional loss functions.The paper provides a github repository containing the
 use tensorflow, I wrote the method that I needed in Tensorflow and provided it here in this repository.
 
 This github respository is a Tensorflow based implementation of the "filter-normalization" method introduced in section 4 of the paper. 
+
+
+Dependencies:
+Tensorflow 2.4
+numpy 1.19.5
+matplotlib 3.3.4
