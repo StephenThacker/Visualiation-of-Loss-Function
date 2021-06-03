@@ -7,7 +7,7 @@ use tensorflow, I wrote the method that I needed in Tensorflow and provided it h
 
 This github respository is a Tensorflow based implementation of the "filter-normalization" method introduced in section 4 of the paper. 
 
-But to reiterate from the paper, the idea is to train your model until the loss function converges and then choose two random vectors from a multivariate normal distribution of the same dimension as your weights. You vary your model in the direction of these two vectors taking scalar multiples of the vector between two scalar bounds. Then, you plot the outcome of the loss function over a test or training dataset. The idea is to see what the convexity of 2 random directions of your loss function looks like. Is it highly non-convex with many singularities or is it smooth? As the paper suggests, this does not give you the complete picture, but is a test to gain new information about how your loss function is behaving as a function of your network weights.
+But to reiterate from the paper, the idea is to train your model until the loss function converges and then choose two random vectors from a multivariate normal distribution of the same dimension as your weights. You vary your model in the direction of these two vectors taking scalar multiples of the vector between two scalar bounds. Then, you plot the outcome of the loss function over a test or training dataset. The idea is to see what the convexity of 2 random directions of your loss function looks like. Is it highly non-convex with many singularities or is it smooth? As the paper suggests, this does not give you the complete picture, but is a test to gain new information about how your loss function is behaving near a local minima.
 
 
 Dependencies:
