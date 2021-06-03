@@ -158,4 +158,3 @@ normalized_vector2 = NormalizeVector(vector2,Vector_Frobenius_norms,weights_norm
 Contour_Matrix =  ComputeContourMatrix(Model1, Model2 ,5,5,vector1,vector2, 100, train_data , Ground_truth)
 X,Y = np.meshgrid(Contour_Matrix[1],Contour_Matrix[1])
 plt.pyplot.contour(X,Y,Contour_Matrix[0])
-print("steve")
