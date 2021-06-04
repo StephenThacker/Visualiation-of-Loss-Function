@@ -15,5 +15,5 @@ Tensorflow 2.4 ,
 numpy 1.19.5 ,
 matplotlib 3.3.4 ,
 
-A few examples of the output can be seen below.
+  A few examples of the output can be seen below.
 ![image](https://user-images.githubusercontent.com/35053174/120835087-7f007700-c529-11eb-949c-8c8c6a9f6ffd.png)
